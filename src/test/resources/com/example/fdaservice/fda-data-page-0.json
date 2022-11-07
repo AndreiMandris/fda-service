@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2022-11-01",
+    "results": {
+      "skip": 0,
+      "limit": 2,
+      "total": 5
+    }
+  },
+  "results": [
+    {
+      "submissions": [
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20220317",
+          "review_priority": "STANDARD",
+          "submission_class_code": "UNKNOWN",
+          "application_docs": [
+            {
+              "id": "63413",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/204921Orig1s000TA_ltr.pdf",
+              "date": "20200604",
+              "type": "Letter"
+            }
+          ]
+        }
+      ],
+      "application_number": "ANDA204921",
+      "sponsor_name": "MSN LABS PVT LTD",
+      "openfda": {
+        "application_number": [
+          "ANDA204921"
+        ],
+        "brand_name": [
+          "LACOSAMIDE"
+        ],
+        "generic_name": [
+          "LACOSAMIDE"
+        ],
+        "manufacturer_name": [
+          "MSN LABORATORIES PRIVATE LIMITED",
+          "Breckenridge Pharmaceutical, Inc."
+        ],
+        "product_ndc": [
+          "69539-025",
+          "69539-026",
+          "69539-027",
+          "69539-028",
+          "51991-348",
+          "51991-349",
+          "51991-350",
+          "51991-351"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "substance_name": [
+          "LACOSAMIDE"
+        ],
+        "rxcui": [
+          "809987",
+          "809992",
+          "809996",
+          "810000"
+        ],
+        "spl_id": [
+          "421cfdea-11a0-4fd7-8b8f-79711f1e5f89",
+          "21d8300b-b6d1-4a99-ac67-7fa92c1cc809"
+        ],
+        "spl_set_id": [
+          "0ae4e2d1-305d-4045-95da-cfe7c2d8b435",
+          "f7ea3ce6-4ca7-4405-a011-48e7d71360a5"
+        ],
+        "package_ndc": [
+          "69539-025-60",
+          "69539-025-05",
+          "69539-026-60",
+          "69539-026-05",
+          "69539-027-60",
+          "69539-027-05",
+          "69539-028-60",
+          "69539-028-05",
+          "51991-348-06",
+          "51991-348-05",
+          "51991-349-06",
+          "51991-349-05",
+          "51991-350-06",
+          "51991-350-05",
+          "51991-351-06",
+          "51991-351-05"
+        ],
+        "nui": [
+          "N0000008486"
+        ],
+        "pharm_class_pe": [
+          "Decreased Central Nervous System Disorganized Electrical Activity [PE]"
+        ],
+        "unii": [
+          "563KS2PQY5"
+        ]
+      },
+      "products": [
+        {
+          "product_number": "003",
+          "reference_drug": "No",
+          "brand_name": "LACOSAMIDE",
+          "active_ingredients": [
+            {
+              "name": "LACOSAMIDE",
+              "strength": "150MG"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        },
+        {
+          "product_number": "001",
+          "reference_drug": "No",
+          "brand_name": "LACOSAMIDE",
+          "active_ingredients": [
+            {
+              "name": "LACOSAMIDE",
+              "strength": "50MG"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        },
+        {
+          "product_number": "004",
+          "reference_drug": "No",
+          "brand_name": "LACOSAMIDE",
+          "active_ingredients": [
+            {
+              "name": "LACOSAMIDE",
+              "strength": "200MG"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        },
+        {
+          "product_number": "002",
+          "reference_drug": "No",
+          "brand_name": "LACOSAMIDE",
+          "active_ingredients": [
+            {
+              "name": "LACOSAMIDE",
+              "strength": "100MG"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        }
+      ]
+    },
+    {
+      "submissions": [
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20220629",
+          "review_priority": "STANDARD",
+          "submission_class_code": "UNKNOWN"
+        }
+      ],
+      "application_number": "ANDA209465",
+      "sponsor_name": "ZYDUS PHARMS",
+      "openfda": {
+        "application_number": [
+          "ANDA209465"
+        ],
+        "brand_name": [
+          "LACOSAMIDE"
+        ],
+        "generic_name": [
+          "LACOSAMIDE"
+        ],
+        "manufacturer_name": [
+          "Zydus Lifesciences Limited",
+          "Zydus Pharmaceuticals USA Inc."
+        ],
+        "product_ndc": [
+          "70771-1682",
+          "70710-1359"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "INTRAVENOUS"
+        ],
+        "substance_name": [
+          "LACOSAMIDE"
+        ],
+        "rxcui": [
+          "809974"
+        ],
+        "spl_id": [
+          "2e8b7789-c673-4f02-b73b-bd465c71c7f5",
+          "0b3569ad-3273-4619-8cfe-144f48d99c40"
+        ],
+        "spl_set_id": [
+          "3bc84c70-bc1d-4a72-bbe7-86f32cd646d0",
+          "07356cf2-224b-40d2-b827-e10a6b42c232"
+        ],
+        "package_ndc": [
+          "70771-1682-1",
+          "70771-1682-6",
+          "70710-1359-1",
+          "70710-1359-6"
+        ],
+        "nui": [
+          "N0000008486"
+        ],
+        "pharm_class_pe": [
+          "Decreased Central Nervous System Disorganized Electrical Activity [PE]"
+        ],
+        "unii": [
+          "563KS2PQY5"
+        ]
+      },
+      "products": [
+        {
+          "product_number": "001",
+          "reference_drug": "No",
+          "brand_name": "LACOSAMIDE",
+          "active_ingredients": [
+            {
+              "name": "LACOSAMIDE",
+              "strength": "200MG/20ML (10MG/ML)"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "SOLUTION",
+          "route": "INTRAVENOUS",
+          "marketing_status": "Prescription",
+          "te_code": "AP"
+        }
+      ]
+    }
+  ]
+}

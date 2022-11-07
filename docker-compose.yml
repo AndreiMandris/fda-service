@@ -1,0 +1,33 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres:14.1-alpine
+    container_name: psql-fda
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+      - PGDATA=/tmp
+    volumes:
+      - ./database:/database
+      - ./data/psql/data:/var/lib/postgresql/data
+    ports:
+      - "15432:5432"
+  adminer:
+    image: adminer
+    ports:
+      - "8081:8080"
+  java:
+    image: openjdk:17-jdk-slim
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: java-fda
+    env_file:
+      - docker/java-fda.env
+    depends_on:
+      - db
+    ports:
+      - "8080:8080"
+      - "8090:8090"

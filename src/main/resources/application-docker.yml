@@ -1,0 +1,24 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /fda-service
+
+fda:
+  api:
+    baseUrl: https://api.fda.gov/drug/drugsfda.json
+    manufacturerFieldName: openfda.manufacturer_name
+    brandFieldName: openfda.brand_name
+
+spring:
+  datasource:
+    url: jdbc:postgresql://db:5432/fdadb
+    username: fda
+    password: local-password
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+    hibernate:
+      ddl-auto: update
+  sql:
+    init:
+      mode: always
+      platform: postgres
